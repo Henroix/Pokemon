@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <style>
+        body{
+            background-image: url('./files/wallpaper-64.jpg');
+            height: 150px;
+            background-size: cover;
+        }
+        table{
+            background-color: gray;
+            width: 100%;
+            border: 1px solid blue;
+            border-collapse: collapse;
+        }
+        
+        thead{
+            background-image:url("./files/modern-gold-background-free-vector.jpg") ;
+            color: #fff;
+        }
+        td, th{
+            border: 5px solid black;
+            padding: 5px;
+            text-align: center;
+            font-size: 32px;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <marquee><img src="./files/pokemon.gif" width="100px">
+             <img src="./files/pokemonlogo.png" width="500px" height="100px">
+             <img src="./files/pokemon.gif" width="100px"></marquee>
+    <div>
+        <a href="#" class="next">1</a>
+        <a href="pokemon2.html" class="previous">2 &raquo;</a>
+        <a href="pokemon3.html" class="previous">3 &raquo;</a>
+        <a href="pokemon4.html" class="previous">4 &raquo;</a>
+        <a href="pokemon2.html" class="next">Next &raquo;</a>
+        <table>
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Appearance</td>
+                    <td>Evolution</td>
+                    
+                    <td>Type</td>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <td>#0001</td>
+                <td>Bulbasaurs</td>
+                <td><a href="./pokemon_profile1/pk1.html"><img src="./files/bulbasaurs.png" width="100px" height="100px"></a></td>
+                <td><a href="./p1/pk2.html"><img src="./files/ivysaurs.png" width="100px" height="100px"></a></td>                
+                <td>Grass/Poison</td>
+            </tr>
+            <tr>
+                <td>#0002</td>
+                <td>Ivysaurs</td>
+                <td><img src="./files/ivysaurs.png" width="100px" height="100px"></td>
+                <td><img src="./files/venasaurs.png" width="100px" height="100px"></td>                
+                <td>Grass/Poison</td>
+            </tr>
+            <tr>
+                <td>#0003</td>
+                <td>Venusaurs</td>
+                <td><img src="./files/venasaurs.png" width="100px" height="100px"></td>
+                <td>None</td>                
+                <td>Grass/Poison</td>
+            </tr>
+            <tr>
+                <td>#0004</td>
+                <td>Charmander</td>
+                <td><img src="./files/charmander.png" width="100px" height="100px"></td>
+                <td><img src="./files/charmeleon.png" width="100px" height="100px"></td>                
+                <td>Fire</td>
+            </tr>
+            <tr>
+                <td>#0005</td>
+                <td>Charmeleon</td>
+                <td><img src="./files/charmeleon.png" width="100px" height="100px"></td>
+                <td><img src="./files/charizard.png" width="100px" height="100px"></td>                
+                <td>Fire</td>
+            </tr>
+            <tr>
+                <td>#0006</td>
+                <td>Charizard</td>
+                <td><img src="./files/charizard.png" width="100px" height="100px"></td>
+                <td>None</td>                
+                <td>Fire/Flying</td>
+            </tr>
+            <tr>
+                <td>#0007</td>
+                <td>Squirtle</td>
+                <td><img src="./files/Squirtle.png" width="100px" height="100px"></td>
+                <td><img src="./files/Wartortle.png" width="100px" height="100px"></td>                
+                <td>Water</td>
+            </tr>
+            <tr>
+                <td>#0008</td>
+                <td>Wartortle</td>
+                <td><img src="./files/Wartortle.png" width="100px" height="100px"></td>
+                <td><img src="./files/Blastoise.png" width="100px" height="100px"></td>                
+                <td>Water</td>
+            </tr>
+            <tr>
+                <td>#0009</td>
+                <td>Blastoise</td>
+                <td><img src="./files/Blastoise.png" width="100px" height="100px"></td>
+                <td>None</td>                
+                <td>Water</td>
+            </tr>
+                <td>#0010</td>
+                <td>Caterpie</td>
+                <td><img src="./files/Caterpie.png" width="100px" height="100px"></td>
+                <td><img src="./files/Metapod.png" width="100px" height="100px"></td>                
+                <td>Bug</td>
+            <tr>
+                <td>#0011</td>
+                <td>Metapod</td>
+                <td><img src="./files/Metapod.png" width="100px" height="100px"></td>
+                <td><img src="./files/Butterfree.png" width="100px" height="100px"></td>                
+                <td>Bug</td>
+            </tr>
+            <tr>
+                <td>#0012</td>
+                <td>Butterfree</td>
+                <td><img src="./files/Butterfree.png" width="100px" height="100px"></td>
+                <td>None</td>                
+                <td>Bug/Flying</td>
+            </tr>
+            <tr>
+                <td>#0013</td>
+                <td>Weedle</td>
+                <td><img src="./files/Weedle.png" width="100px" height="100px"></td>
+                <td><img src="./files/Kakuna.png" width="100px" height="100px"></td>                
+                <td>Bug/Poison</td>
+            </tr>
+            <tr>
+                <td>#0014</td>
+                <td>Kakuna</td>
+                <td><img src="./files/Kakuna.png" width="100px" height="100px"></td>
+                <td><img src="./files/Beedrill.png" width="100px" height="100px"></td>                
+                <td>Bug/Poison</td>
+            </tr>
+            <tr>
+                <td>#0015</td>
+                <td>Beedrill</td>
+                <td><img src="./files/Beedrill.png" width="100px" height="100px"></td>
+                <td>None</td>                
+                <td>Bug/Poison</td>
+            </tr>
+        </tbody>
+        </table>
+        <a href="#" class="next">1</a>
+        <a href="pokemon2.html" class="previous">2 &raquo;</a>
+        <a href="pokemon3.html" class="previous">3 &raquo;</a>
+        <a href="pokemon4.html" class="previous">4 &raquo;</a>
+        <a href="pokemon2.html" class="next">Next &raquo;</a>
+    </div>
+</body>
+</html>
